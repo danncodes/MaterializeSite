@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Import Google Icon Font-->
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+			integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+			crossorigin="anonymous"
+		/>
+
+		<!--Import materialize.css-->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+		/>
+		<link rel="stylesheet" href="index.css" />
+		<link rel="stylesheet" href="modal.css" />
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home</title>
+	</head>
+
+	<body>
+		<!--Hidden Nav Bar / Header -->
+		<div class="nav-menu hide-nav transition-effect">
+			<ul id="nav-mobile" class="">
+				<li><a href="index.html" class="menu-item">Home</a></li>
+				<li><a href="about.html" class="menu-item">About</a></li>
+				<li><a href="contact.html" class="menu-item">Contact Us</a></li>
+			</ul>
+			<i class="fas fa-times close-btn"></i>
+		</div>
+		<!-- PopUp Modal -->
+
+		<div class="modal-bg display-value">
+			<div class="modal">
+				<i class="fas fa-times close-modal"></i>
+				<div class="modal-main">
+					<h3>50% off Web Services</h3>
+					<h5>Quote "DannCodes" when you enquire with us!</h5>
+					<a href="contact.html"
+						><button
+							class="contact-us-btn btn  btn-large #b2dfdb teal lighten-3 waves-effect"
+						>
+							Contact Us
+						</button></a
+					>
+				</div>
+				<div class="modal-img-div"></div>
+			</div>
+		</div>
+
+		<div class="main-section">
+			<nav>
+				<div class="nav-wrapper #b2dfdb teal lighten-3">
+					<a href="https://github.com/danncodes" target="_blank"
+						><i class="fab fa-github"></i
+					></a>
+					<a href="index.html" class="brand-logo center">Company Name</a>
+					<a
+						href="#"
+						data-activates="mobile-demo"
+						class="button-collapse hide-on-large-only right"
+					>
+						<i class="material-icons nav-mobile">menu</i>
+					</a>
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</div>
+			</nav>
+			<!-- Main Section -->
+			<div class="container center-align main-content">
+				<h1 class="main-content-head">Web Services</h1>
+				<h4 class="main-content-sub-head">
+					We Help you establish digital presence in a digital world
+				</h4>
+				<a href="contact.html"
+					><button
+						class="contact-us-btn btn  btn-large #b2dfdb teal lighten-3 waves-effect"
+					>
+						Contact Us
+					</button></a
+				><br />
+				<a href="contact.html" class="white-text"
+					><i class="material-icons large">arrow_downward</i></a
+				>
+			</div>
+		</div>
+		<!-- Cards -->
+		<div class="container card-div">
+			<div class="card card-1">
+				<h3 class="card-text">
+					Grow Online Sales
+				</h3>
+				<div class="icon-wrapper">
+					<i class="fas fa-chart-line card-icon"></i>
+				</div>
+			</div>
+			<div class="card card-2">
+				<h3 class="card-text">Track Data</h3>
+				<div class="icon-wrapper">
+					<i class="fas fa-chart-area card-icon"></i>
+				</div>
+			</div>
+			<div class="card card-3">
+				<h3 class="card-text">Secure Deals</h3>
+				<div class="icon-wrapper">
+					<i class="fas fa-pound-sign card-icon"></i>
+				</div>
+			</div>
+		</div>
+		<!-- Quote Section -->
+		<div class="quote-section-wrapper">
+			<div class="quote-section">
+				<span class="flow-text quote-text"> </span>
+				<button
+					class="contact-us-btn btn  btn-large #b2dfdb teal lighten-3 waves-effect quote-btn"
+				>
+					Generate Random Quote
+				</button>
+			</div>
+		</div>
+		<!-- Footer -->
+		<footer class="page-footer #b2dfdb teal lighten-3">
+			<h5 class="footer-text">© 2021 Dann Codes - Daniel Mensah</h5>
+		</footer>
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script src="sandbox.js"></script>
+		<script src="modal.js"></script>
+	</body>
+</html>
+
+<!-- Compiled and minified CSS -->
