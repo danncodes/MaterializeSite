@@ -12,4 +12,4 @@ setTimeout(() => {
 		modalPop.classList.remove('display-value');
 		localStorage.setItem('displayVal', true);
 	}
-}, 10000);
+}, 5000);
