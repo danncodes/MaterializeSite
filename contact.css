@@ -187,12 +187,6 @@ footer {
 	.maps {
 		display: none;
 	}
-
-	footer {
-		clear: both;
-		position: relative;
-		margin-top: -200px;
-	}
 }
 
 /* Small Screens */
